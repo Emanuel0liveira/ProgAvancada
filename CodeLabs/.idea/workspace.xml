@@ -5,43 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d9a846-b39a-4cdc-9485-fb249cfd6aab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/happyBirthday/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/androidTest/java/pt/ipg/happybirthday/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/java/pt/ipg/happybirthday/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/app/src/test/java/pt/ipg/happybirthday/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/happyBirthday/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/.github/ISSUE_TEMPLATE/calculate-a-custom-tip-issue-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/.github/ISSUE_TEMPLATE/calculate-a-custom-tip-issue-template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/.github/ISSUE_TEMPLATE/intro-to-state-issue-template.md" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/.github/ISSUE_TEMPLATE/intro-to-state-issue-template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/java/com/example/tiptime/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/java/com/example/tiptime/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/java/com/example/tiptime/ui/theme/Color.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/java/com/example/tiptime/ui/theme/Color.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/java/com/example/tiptime/ui/theme/Theme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/java/com/example/tiptime/ui/theme/Theme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/java/com/example/tiptime/ui/theme/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/java/com/example/tiptime/ui/theme/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/drawable/money.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/drawable/money.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/drawable/percent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/drawable/percent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bcalculator-starter/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/bcalculator/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +57,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2vX2KGiHXOdIjbGjtkQUaDbc8Jo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -72,7 +75,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ProgAvancada/CodeLabs",
+    "last_opened_file_path": "D:/ProgAvancada/CodeLabs/bcalculator",
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
