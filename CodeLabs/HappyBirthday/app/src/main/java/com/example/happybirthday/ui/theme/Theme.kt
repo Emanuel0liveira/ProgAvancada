@@ -1,4 +1,4 @@
-package pt.ipg.happybirthday.ui.theme
+package com.example.happybirthday.ui.theme
 
 import android.app.Activity
 import android.os.Build

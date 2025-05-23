@@ -1,4 +1,4 @@
-package pt.ipg.happybirthday.ui.theme
+package com.example.happybirthday.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

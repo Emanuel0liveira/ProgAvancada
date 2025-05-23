@@ -1,4 +1,4 @@
-package pt.ipg.happybirthday
+package com.example.happybirthday
 
 import org.junit.Test
 
