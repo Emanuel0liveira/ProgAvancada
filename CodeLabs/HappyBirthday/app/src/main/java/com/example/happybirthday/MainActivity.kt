@@ -26,8 +26,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     GreetingText(
-                        message = "Happy Birthday Frederico!",
-                        from = "From Jordy",
+                        message = "Happy Birthday Ana!",
+                        from = "From Emanuel",
                         modifier = Modifier
                             .fillMaxSize()
                             .padding(8.dp)
@@ -64,8 +64,8 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
         GreetingText(
-            message = "Happy Birthday Frederico!",
-            from = "From Jordy"
+            message = "Happy Birthday Ana!",
+            from = "From Emanuel"
         )
     }
 }
