@@ -3,6 +3,7 @@ package pt.ipg.concertinashare
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.compose.BackHandler
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
@@ -138,12 +139,110 @@ fun MainMenu(
 
 @Composable
 fun ConcPortugal(onBack: () -> Unit) {}
+
+
 @Composable
 fun ConcSuica(onBack: () -> Unit) {}
+
+
 @Composable
-fun ConcAlemanha(onBack: () -> Unit) {}
+fun ConcAlemanha(onBack: () -> Unit) {
+    val context = LocalContext.current
+
+    val imageResources = remember {
+        listOf(
+            getResourceId(context, "ConcAlemanha_1"),
+            getResourceId(context, "ConcAlemanha_2"),
+            getResourceId(context, "ConcAlemanha_3"),
+            getResourceId(context, "ConcAlemanha_4")
+        ).filter { it != 0 }
+    }
+
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_ConcAlemanha")) }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = currentImage),
+            contentDescription = "Alemanha",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        Button(
+            onClick = {
+                var newImage: Int
+                do {
+                    newImage = imageResources.random()
+                } while (newImage == currentImage)
+                currentImage = newImage
+            },
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .padding(bottom = 60.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFF354D50)
+            )
+        ) {
+            Text(text = "Concertina")
+        }
+    }
+
+    BackHandler(onBack = onBack)
+
+}
+
+fun getResourceId(context: Context, name: String): Int {
+    return context.resources.getIdentifier(name, "drawable", context.packageName)
+}
+
 @Composable
-fun ConcItalia(onBack: () -> Unit) {}
+fun ConcItalia(onBack: () -> Unit) {
+    val context = LocalContext.current
+
+    val imageResources = remember {
+        listOf(
+            getResourceId(context, "ConcItalia_1"),
+            getResourceId(context, "ConcItalia_2"),
+            getResourceId(context, "ConcItalia_3"),
+            getResourceId(context, "ConcItalia_4")
+        ).filter { it != 0 }
+    }
+
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_ConcItalia")) }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = currentImage),
+            contentDescription = "Italia",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        Button(
+            onClick = {
+                var newImage: Int
+                do {
+                    newImage = imageResources.random()
+                } while (newImage == currentImage)
+                currentImage = newImage
+            },
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .padding(bottom = 60.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFF354D50)
+            )
+        ) {
+            Text(text = "Concertina")
+        }
+    }
+
+    BackHandler(onBack = onBack)
+
+}
+
 
 @Preview(showBackground = true)
 @Composable
