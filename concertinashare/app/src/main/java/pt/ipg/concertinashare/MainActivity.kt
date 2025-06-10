@@ -138,11 +138,97 @@ fun MainMenu(
 }
 
 @Composable
-fun ConcPortugal(onBack: () -> Unit) {}
+fun ConcPortugal(onBack: () -> Unit) {
+
+    val context = LocalContext.current
+
+    val imageResources = remember {
+        listOf(
+            getResourceId(context, "concportugal_1"),
+            getResourceId(context, "concportugal_2")
+        ).filter { it != 0 }
+    }
+
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_concportugal")) }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = currentImage),
+            contentDescription = "Portugal",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        Button(
+            onClick = {
+                var newImage: Int
+                do {
+                    newImage = imageResources.random()
+                } while (newImage == currentImage)
+                currentImage = newImage
+            },
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .padding(bottom = 60.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFF4CAF50)
+            )
+        ) {
+            Text(text = "Concertina")
+        }
+    }
+
+    BackHandler(onBack = onBack)
+
+}
 
 
 @Composable
-fun ConcSuica(onBack: () -> Unit) {}
+fun ConcSuica(onBack: () -> Unit) {
+
+    val context = LocalContext.current
+
+    val imageResources = remember {
+        listOf(
+            getResourceId(context, "concsuica_1"),
+            getResourceId(context, "concsuica_2")
+        ).filter { it != 0 }
+    }
+
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_concsuica")) }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Image(
+            painter = painterResource(id = currentImage),
+            contentDescription = "Suiça",
+            contentScale = ContentScale.Fit,
+            modifier = Modifier.fillMaxSize()
+        )
+
+        Button(
+            onClick = {
+                var newImage: Int
+                do {
+                    newImage = imageResources.random()
+                } while (newImage == currentImage)
+                currentImage = newImage
+            },
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .fillMaxWidth()
+                .padding(bottom = 60.dp),
+            colors = ButtonDefaults.buttonColors(
+                containerColor = Color(0xFFF52C1D)
+            )
+        ) {
+            Text(text = "Concertina")
+        }
+    }
+
+    BackHandler(onBack = onBack)
+
+}
 
 
 @Composable
