@@ -151,14 +151,14 @@ fun ConcAlemanha(onBack: () -> Unit) {
 
     val imageResources = remember {
         listOf(
-            getResourceId(context, "ConcAlemanha_1"),
-            getResourceId(context, "ConcAlemanha_2"),
-            getResourceId(context, "ConcAlemanha_3"),
-            getResourceId(context, "ConcAlemanha_4")
+            getResourceId(context, "concalemanha_1"),
+            getResourceId(context, "concalemanha_2"),
+            getResourceId(context, "concalemanha_3"),
+            getResourceId(context, "concalemanha_4")
         ).filter { it != 0 }
     }
 
-    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_ConcAlemanha")) }
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_concalemanha")) }
 
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
@@ -181,7 +181,7 @@ fun ConcAlemanha(onBack: () -> Unit) {
                 .fillMaxWidth()
                 .padding(bottom = 60.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF354D50)
+                containerColor = Color(0xFFF53222)
             )
         ) {
             Text(text = "Concertina")
@@ -202,14 +202,14 @@ fun ConcItalia(onBack: () -> Unit) {
 
     val imageResources = remember {
         listOf(
-            getResourceId(context, "ConcItalia_1"),
-            getResourceId(context, "ConcItalia_2"),
-            getResourceId(context, "ConcItalia_3"),
-            getResourceId(context, "ConcItalia_4")
+            getResourceId(context, "concitalia_1"),
+            getResourceId(context, "concitalia_2"),
+            getResourceId(context, "concitalia_3"),
+            getResourceId(context, "concitalia_4")
         ).filter { it != 0 }
     }
 
-    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_ConcItalia")) }
+    var currentImage by remember { mutableStateOf(getResourceId(context, "baground_concitalia")) }
 
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
@@ -232,7 +232,7 @@ fun ConcItalia(onBack: () -> Unit) {
                 .fillMaxWidth()
                 .padding(bottom = 60.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF354D50)
+                containerColor = Color(0xFFF32C1E)
             )
         ) {
             Text(text = "Concertina")
